@@ -1,29 +1,18 @@
-
-import React from 'react';
-import './App.css';
-import Footer from './components/Footer';
+import React from "react";
+import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Passage from './components/Passage';
-import BannerTop from './components/BannerTop';
-import BannerBottom from './components/BannerBottom';
-import Info from './components/Info';
-import Body from './components/Body';
-import BannerFooter from './components/BannerFooter';
+import Passage from "./components/Passage";
 
+import Body from "./components/Body";
 
 function App() {
   return (
     <>
-    
-    <Header />
-    <Passage />
-    <BannerTop />
-    <Body />
-    <BannerBottom />
-    <Info />
-    <Footer />
-    <BannerFooter />
-    
+      <Header />
+      <Passage />
+      <Body />
+      <Footer />
     </>
   );
 }

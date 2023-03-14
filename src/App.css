@@ -8,7 +8,7 @@
   
 }
 ::root {
-  --color-primary: #282c34;
+  --color-primary: #ffffff;
   --color-secondary: #f2f2f2;
   --color-hover: #3ce3e9;
   --color-white: #FFFFFF;
@@ -25,7 +25,7 @@
 }
 
 a {
-  color: #5fffff71;
+  color: #00000071;
   text-decoration: none;
 }
 
@@ -34,7 +34,8 @@ a {
 body {  
   
   
-  background-image: url(./img/bg4.png);
+  background-image: url(./img/bg12.png);
+  backdrop-filter: blur(2px);
   min-height: 500px;
 
   /* Create the parallax scrolling effect */
@@ -44,9 +45,13 @@ body {
   
   background-size:cover;
   /* background-color: transparent; */
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
 
-  margin: 10px;
-  padding: 10px;
+body:hover {
+  backdrop-filter: blur(0px);
 }
 
 body::-webkit-scrollbar {
@@ -68,14 +73,14 @@ body::-webkit-scrollbar-thumb {
   padding: 5px;
   border-radius: 10000px;
   min-width: 100px;
-  min-height: 1vh;
+  min-height: 20vh;
   color: rgb(255, 255, 255);
   text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vh);
-  background-color: rgb(255, 119, 119,0);
+  background-color: rgba(253, 253, 253, 0);
 }
 
 .App {
@@ -84,10 +89,11 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   justify-content:center;
   align-items: center;
+  
 }
 
 .App-header {
-  letter-spacing: 20px;
+  letter-spacing: 25px;
   text-transform: uppercase;
   background-color: var(--color-secondary);
   min-height: 15vh;
@@ -98,29 +104,41 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: center;
   font-size: 6em;
-  color: var(--color-primary);
+  color: #f2f2f2;
   margin: 5px;
   border-radius: 1000000px;
+ 
   
  
   
 }
 
+.passage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-self: center;
+  justify-items: center;
+  margin: 0rem 0rem 0rem 0rem;
+ 
+}
+
 .passage {
-  background-color: rgba(241, 241, 241, 0.271);
-  border: 1px solid rgba(255, 251, 251, 0.809);
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgb(255, 251, 251);
   text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   /* border: 1px solid rgb(255, 255, 255); */
-  border-radius: 40px;
-  min-width: 25vh;
-  min-height: 1vh;
-  padding: 15px;
-  margin: 15px;
+  border-radius: 0px;
+  min-width: 100vw;
+  min-height: 10vh;
+  padding: 2rem;
+  
   color: rgb(0, 0, 0);
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   font-size: calc(5px + 2vh);
   box-shadow: var(--box-shadow-1);
   
@@ -140,37 +158,35 @@ justify-content: center;
 }
 
 .image {
-  margin-left: auto;
-  margin-right: auto;
-  margin: 40px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 1rem 4rem 1rem 4rem;
   width: 10vh;
   height: 10vh;
   border-radius: 40px;
   
   padding: 2px;
-  margin: 35px;
+  /* margin: 35px; */
   border: 1px solid rgb(255, 255, 255);
 }
 
 .image-banner {
   margin-left: auto;
   margin-right: auto;
-  margin: 40px;
-  width: 100vh;
-  height: 80vh;
-  border-radius: 50%;
-
-  
+  margin: 50px;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 40px;
   padding: 2px;
-  margin: 35px;
+  margin: 1rem 2rem 1rem 2rem;
   border: 1px solid rgb(255, 255, 255);
 }
 .image-title {
   margin-left: auto;
   margin-right: auto;
   margin: 1px;
-  width: 5vh;
-  height: 5vh;
+  width: 8vh;
+  height: 8vh;
   border-radius: 40px;
   
   
@@ -189,8 +205,25 @@ justify-content: center;
   transition: all 0.7s ease-in-out; */
 }
 
+hr {
+  width: 100%;
+  border-radius: 2px;
+  margin: 0rem 0rem 1rem 0rem;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 3rem 0.5rem 3rem;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  align-content: center;
+  align-items: center;
+}
+
 .body-txt {
-  background-color: rgba(249, 249, 249, 0.235);
+  background-color: rgb(249, 249, 249);
   border: 2px solid rgba(255, 255, 255, 0.844);
 text-align: center;
   flex-direction: column;
@@ -198,18 +231,22 @@ text-align: center;
   justify-content: center;
   /* border: 1px solid rgb(255, 255, 255); */
   border-radius: 40px;
-  min-width: 0.5vh;
-  min-height: 1vh;
-  padding: 40px;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 50px;
   margin: 35px;
-  color: rgb(8, 8, 8);
+  color: rgb(0, 0, 0);
   letter-spacing: 0.2px;
   font-size: calc(5px + 2vh);
   box-shadow: var(--box-shadow-1);
 }
 
+.info-container {
+  margin: 0;
+}
+
 .info {
-  background-color: rgba(255, 255, 255, 0.107);
+  background-color: rgba(255, 255, 255, 0.479);
   border: 1px solid rgba(255, 255, 255, 0.864);
   text-align: center;
   flex-direction: column;
@@ -217,16 +254,16 @@ text-align: center;
   justify-content: center;
   /* border: 1px solid rgb(255, 255, 255); */
   border-radius: 40px;
-  min-width: 0.5vh;
+  width: 100vw;
   min-height: 1vh;
   padding: 15px;
-  margin: 25px;
+  margin: 1rem 0rem 0rem 0rem;
   color: var(--color-primary);
   letter-spacing: 2px;
   font-size: calc(12px + 2vh);
   box-shadow: var(--box-shadow-1);
   
-  
+  position: sticky;
 }
 .info:hover {
   box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5)  ; 
@@ -238,47 +275,55 @@ text-align: center;
 }
 
 .footer {
-  background-color: rgba(255, 255, 255, 0.107);
+  background-color: rgb(255, 255, 255);
   border: 1px solid rgba(255, 255, 255, 0.749);
   text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  justify-self: center;
+  align-content: center;
+  justify-items: center;
   /* border: 1px solid rgb(255, 255, 255); */
-  border-radius: 40px;
+  border-radius: 0px;
   
   letter-spacing: 3px;
-  min-width: 0.5vh;
+  min-width: 100vw;
   min-height: 1vh;
   padding: 25px;
-  margin: 35px;
+  margin: 1rem 0rem 1rem 0rem;
   color: var(--color-primary);
   font-size: calc(2px + 2vh);
   box-shadow: var(--box-shadow-1);
-
+  /* width: 100vh; */
 
 }
-.footer:hover {
+/* .footer:hover {
   box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5)  ; 
 	-webkit-box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5)  ; 
 	-moz-box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5);
   cursor: auto;
   transition: all 0.7s;
-}
+} */
 
 @media only screen and (width <= 600px) {
   .App-header {
-    font-size: 2em;
-    margin:auto;
+    font-size: 2.7em;
+ 
     padding: 10px;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
+    margin:1rem 0rem 0rem 0rem;
   }
 
   .passage {
     font-size: 2vh;
   }
 
+  
+  .body-txt {
+    font-size: 1.2rem;
+  }
 
   .image {
     height:10vh;
@@ -286,8 +331,7 @@ text-align: center;
   }
 
   .image-banner {
-    height: 15vh;
-    width: 15vh;
+   display: none;
   }
 
   .image-title {
@@ -297,49 +341,74 @@ text-align: center;
   .info {
     background-color:rgba(0, 0, 0, 0.159);
     color:rgb(255, 255, 255);
+    margin: 1rem 5rem 1rem 5rem;
   }
 
   .footer {
-    background-color:rgba(0, 0, 0, 0.159);
-    color:rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    margin: 0rem 0rem 1rem 0rem;
   }
 }
 
-@media (600px < width <= 1100px) {
+@media (600px < width <= 1800px) {
   .App-header {
     font-size: 4em;
-    margin:auto;
+    margin:1rem 0rem 0rem 0rem;
     padding: 10px;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 13px;
+    color:rgb(255, 255, 255);
+  
   }
 
+ 
   .passage {
-    font-size: 2vh;
+    font-size: 1.9vh;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 2rem;
   }
 
 
   .image {
     height:10vh;
-    width: 10vh;
-  }
-
-  .image-banner {
-    height: 15vh;
     width: 15vh;
   }
 
+  .image-banner {
+    display: none;
+    height:15vh;
+    width: 25vh;
+  }
+
+  
   .image-title {
     display: none;
+  }
+
+  .body-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body-txt {
+    font-size: 1.8vw;
+    margin: 2rem 4rem 2rem 4rem;
   }
 
   .info {
     background-color:rgba(0, 0, 0, 0.159);
     color:rgb(255, 255, 255);
+    margin: 1rem 0rem 0rem 0rem;
+    width: 100vw;
+    overflow-y: hidden;
+    position: sticky;
   }
 
   .footer {
-    background-color:rgba(0, 0, 0, 0.159);
-    color:rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    margin: 0rem 0rem 1rem 0rem;
+   
   }
 }
