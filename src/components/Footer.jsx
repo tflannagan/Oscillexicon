@@ -5,11 +5,8 @@ function Footer() {
     <div className="body">
       {/* <h3 className="title-txt"></h3> */}
       <p className="footer">
-        Please feel free to get in touch with{" "}
-        <a href="#" target="_blank">
-          us
-        </a>{" "}
-        for questions.
+        If you have further questions, feel free to get in touch with us at{" "}
+        <strong>oscillationist@proton.me</strong>
       </p>
     </div>
   );

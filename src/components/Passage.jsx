@@ -10,9 +10,11 @@ function Passage() {
           <strong>Principium: </strong>
         </u>
         <br />
-        The belief that everything in the observable universe
-        <br /> exists in states of oscillation and by understanding and being{" "}
-        <br /> aware of these, we can adjust for optimization in all domains.
+        All entities in the observable universe
+        <br /> exist in a <i>continuum</i> of <i>oscillations</i> and by
+        understanding this, we can recognizes the interconnectivity of all
+        things and make informed decisions about how to interact with and
+        influence the world around us.
       </p>
     </div>
   );
