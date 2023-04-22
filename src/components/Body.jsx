@@ -91,12 +91,13 @@ function Body() {
 
       <div className="card">
         <img src={Img9} alt="img" />
-        <div className="card-content">
+        <div className="card-content io">
+          <h2 className="io-content">Igniculus Oscillatar</h2>
           <blockquote>
             <stong></stong> In Oscillationism, the beginning of the universe is
-            explained as Igniculus Oscillatar, which roughly means, "spark of
-            oscillation." Igniculus Oscillatar or IO, is a representation of the
-            fundamental force of oscillation that permeates throughout the
+            explained as Igniculus Oscillatar, which approximately means, "spark
+            of oscillation." Igniculus Oscillatar or IO, is a representation of
+            the fundamental force of oscillation that permeates throughout the
             universe. &nbsp; IO is believed to be the source of all oscillations
             and the driving force behind the balance, love, and unity that
             Oscillationism espouses. It is thought that by connecting with IO,
