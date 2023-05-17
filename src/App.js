@@ -1,19 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Passage from "./components/Passage";
-
-import Body from "./components/Body";
+import HomePage from "./components/HomePage";
+import SecondPage from "./components/SecondPage";
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("home");
+
+  const handleNavigation = (page) => {
+    setCurrentPage(page);
+  };
+
   return (
-    <>
-      <Header />
-      <Passage />
-      <Body />
-      <Footer />
-    </>
+    <div className="App">
+      {currentPage === "home" ? (
+        <HomePage onNavigate={handleNavigation} />
+      ) : (
+        <SecondPage onNavigate={handleNavigation} />
+      )}
+    </div>
   );
 }
 

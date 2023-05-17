@@ -10,7 +10,7 @@ function Passage() {
           <strong>Principium: </strong>
         </u>
         <br />
-        All entities in the observable universe
+        Everything in the observable universe
         <br /> exist in a <i>continuum</i> of <i>oscillations</i> and by
         understanding this, we can recognizes the interconnectivity of all
         things and make informed decisions about how to interact with and
