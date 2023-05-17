@@ -22,3 +22,9 @@ This project was built with the following technologies:
 - React.js
 - CSS3
 - Figma
+
+## Live Site 
+
+[Live Site](https://tflannagan.github.io/Oscillexicon/)
+
+Hosted using Github Pages.
