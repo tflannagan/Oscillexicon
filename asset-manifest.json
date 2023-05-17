@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.1aa69384.css",
-    "main.js": "/static/js/main.ede3308a.js",
-    "static/js/787.a5a9b2c3.chunk.js": "/static/js/787.a5a9b2c3.chunk.js",
-    "static/media/bg10.png": "/static/media/bg10.8bcb041441f9f61063bd.png",
-    "static/media/bg17.png": "/static/media/bg17.1a89ddd36db9337dde08.png",
-    "static/media/bg16.png": "/static/media/bg16.41d843e606bbc1a9f138.png",
-    "static/media/bg18.png": "/static/media/bg18.06c231ca5bd0d04be893.png",
-    "static/media/bg19.png": "/static/media/bg19.d0b2799d01e9333b5130.png",
-    "static/media/bg15.png": "/static/media/bg15.4841c5d333be4c3f7d5c.png",
-    "static/media/bg12.png": "/static/media/bg12.be8696961fc3ac6143b2.png",
-    "static/media/bg14.png": "/static/media/bg14.02854d69273bba311251.png",
-    "index.html": "/index.html",
-    "main.1aa69384.css.map": "/static/css/main.1aa69384.css.map",
-    "main.ede3308a.js.map": "/static/js/main.ede3308a.js.map",
-    "787.a5a9b2c3.chunk.js.map": "/static/js/787.a5a9b2c3.chunk.js.map"
+    "main.css": "/Oscillexicon/static/css/main.8f84483e.css",
+    "main.js": "/Oscillexicon/static/js/main.f7f40da5.js",
+    "static/js/787.a5a9b2c3.chunk.js": "/Oscillexicon/static/js/787.a5a9b2c3.chunk.js",
+    "static/media/bg10.png": "/Oscillexicon/static/media/bg10.8bcb041441f9f61063bd.png",
+    "static/media/bg17.png": "/Oscillexicon/static/media/bg17.1a89ddd36db9337dde08.png",
+    "static/media/bg16.png": "/Oscillexicon/static/media/bg16.41d843e606bbc1a9f138.png",
+    "static/media/bg18.png": "/Oscillexicon/static/media/bg18.06c231ca5bd0d04be893.png",
+    "static/media/bg19.png": "/Oscillexicon/static/media/bg19.d0b2799d01e9333b5130.png",
+    "static/media/bg15.png": "/Oscillexicon/static/media/bg15.4841c5d333be4c3f7d5c.png",
+    "static/media/bg12.png": "/Oscillexicon/static/media/bg12.be8696961fc3ac6143b2.png",
+    "static/media/bg14.png": "/Oscillexicon/static/media/bg14.02854d69273bba311251.png",
+    "index.html": "/Oscillexicon/index.html",
+    "main.8f84483e.css.map": "/Oscillexicon/static/css/main.8f84483e.css.map",
+    "main.f7f40da5.js.map": "/Oscillexicon/static/js/main.f7f40da5.js.map",
+    "787.a5a9b2c3.chunk.js.map": "/Oscillexicon/static/js/787.a5a9b2c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aa69384.css",
-    "static/js/main.ede3308a.js"
+    "static/css/main.8f84483e.css",
+    "static/js/main.f7f40da5.js"
   ]
 }
