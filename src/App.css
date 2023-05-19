@@ -117,7 +117,7 @@ body::-webkit-scrollbar-thumb {
   align-content: center;
   justify-items: center;
   height: 100%;
-  width: 100%;
+  width: 105vw;
   /* border: 1px solid rgb(255, 255, 255); */
   border-radius: 0px;
  
