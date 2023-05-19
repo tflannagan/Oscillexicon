@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Oscillexicon/static/css/main.8f84483e.css",
-    "main.js": "/Oscillexicon/static/js/main.f7f40da5.js",
+    "main.css": "/Oscillexicon/static/css/main.9f5211b6.css",
+    "main.js": "/Oscillexicon/static/js/main.9e2c018b.js",
     "static/js/787.a5a9b2c3.chunk.js": "/Oscillexicon/static/js/787.a5a9b2c3.chunk.js",
     "static/media/bg10.png": "/Oscillexicon/static/media/bg10.8bcb041441f9f61063bd.png",
     "static/media/bg17.png": "/Oscillexicon/static/media/bg17.1a89ddd36db9337dde08.png",
@@ -12,12 +12,12 @@
     "static/media/bg12.png": "/Oscillexicon/static/media/bg12.be8696961fc3ac6143b2.png",
     "static/media/bg14.png": "/Oscillexicon/static/media/bg14.02854d69273bba311251.png",
     "index.html": "/Oscillexicon/index.html",
-    "main.8f84483e.css.map": "/Oscillexicon/static/css/main.8f84483e.css.map",
-    "main.f7f40da5.js.map": "/Oscillexicon/static/js/main.f7f40da5.js.map",
+    "main.9f5211b6.css.map": "/Oscillexicon/static/css/main.9f5211b6.css.map",
+    "main.9e2c018b.js.map": "/Oscillexicon/static/js/main.9e2c018b.js.map",
     "787.a5a9b2c3.chunk.js.map": "/Oscillexicon/static/js/787.a5a9b2c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f84483e.css",
-    "static/js/main.f7f40da5.js"
+    "static/css/main.9f5211b6.css",
+    "static/js/main.9e2c018b.js"
   ]
 }
