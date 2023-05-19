@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Oscillexicon/static/css/main.9f5211b6.css",
+    "main.css": "/Oscillexicon/static/css/main.a7d0e69a.css",
     "main.js": "/Oscillexicon/static/js/main.9e2c018b.js",
     "static/js/787.a5a9b2c3.chunk.js": "/Oscillexicon/static/js/787.a5a9b2c3.chunk.js",
     "static/media/bg10.png": "/Oscillexicon/static/media/bg10.8bcb041441f9f61063bd.png",
@@ -12,12 +12,12 @@
     "static/media/bg12.png": "/Oscillexicon/static/media/bg12.be8696961fc3ac6143b2.png",
     "static/media/bg14.png": "/Oscillexicon/static/media/bg14.02854d69273bba311251.png",
     "index.html": "/Oscillexicon/index.html",
-    "main.9f5211b6.css.map": "/Oscillexicon/static/css/main.9f5211b6.css.map",
+    "main.a7d0e69a.css.map": "/Oscillexicon/static/css/main.a7d0e69a.css.map",
     "main.9e2c018b.js.map": "/Oscillexicon/static/js/main.9e2c018b.js.map",
     "787.a5a9b2c3.chunk.js.map": "/Oscillexicon/static/js/787.a5a9b2c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5211b6.css",
+    "static/css/main.a7d0e69a.css",
     "static/js/main.9e2c018b.js"
   ]
 }
