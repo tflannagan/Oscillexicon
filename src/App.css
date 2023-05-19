@@ -349,9 +349,11 @@ hr {
 }
 
 @media only screen and (width <= 600px) {
+
+  
   .App-header {
-    font-size: 2.7em;
- 
+    font-size: 2.2em;
+    width: 100vw;
     padding: 10px;
     text-align: center;
     letter-spacing: 6px;
@@ -360,12 +362,15 @@ hr {
 
   .card-content {
     font-size: 1.7rem;
-  padding: 3rem;
-  font-size: 1.2rem;
+  padding: 2rem;
+  font-size: 1.1rem;
+  width: 100vw;
   }
   .passage {
     font-size: 1em;
     
+    width: 105vw;
+    margin: 2rem;
   }
 
   
@@ -395,9 +400,19 @@ hr {
   .footer {
     background-color:rgb(255, 255, 255);
     color:rgb(0, 0, 0);
-    margin: 0rem 0rem 1rem 0rem;
-    
+    margin: 0rem 2rem 1rem 2rem;
+    width: 100vw;
+    font-size: 0.7rem;
   }
+
+  .footer-img {
+    display: none;
+  }
+
+  .second-page {
+    font-size: 1em;
+  }
+
 }
 
 @media (600px < width <= 1800px) {
